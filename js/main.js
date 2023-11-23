@@ -39,7 +39,7 @@ $(document).ready(function(){
             console.log(form)
         },
         invalidHandler: function(evento, validador) {
-            let camposIncorretos = validador.NumberOfInvalids();
+            let camposIncorretos = validador.numberOfInvalids();
             if (camposIncorretos) {
                 alert(`Existem ${camposIncorretos} campos incorretos`)
             }
